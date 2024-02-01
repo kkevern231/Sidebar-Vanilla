@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(244, 244, 242);
+  container-type: inline-size;
+  display: grid;
+  grid-template-columns: 70cqw 30cqw;
+}
+
+body div {
+  background-color: white;
+}
+
+#one {
+  display: flex;
+  flex-direction: row;
+  margin: 1cqw;
+}
+#one > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#two {
+  display: flex;
+  flex-direction: row;
+  margin: 1cqw;
+}
+#two > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#three {
+  display: flex;
+  flex-direction: row;
+  margin: 1cqw;
+}
+#three > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+img {
+  padding: 10px;
+  height: 200px;
+  width: 300px;
+}
+button {
+  width: 5cqw;
+  height: 2cqw;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+#sidebar {
+  border-left: 10px solid grey;
+  height: 100cqw;
+  padding: 1cqw;
+}
+
+#selected {
+  position: sticky;
+  top: 10cqw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#selected button {
+  visibility: hidden;
+}
+
+#selected > div > p {
+  padding-top: 10%;
+}
+
+/* @container (max-width: 400px) {
+  #sidebar {
+    content-visibility: hidden;
+  }
+} */
