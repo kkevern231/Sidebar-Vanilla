@@ -9,41 +9,24 @@ body div {
   background-color: white;
 }
 
-#one {
+.listing {
   display: flex;
   flex-direction: row;
   margin: 1cqw;
 }
-#one > div {
+
+.listing > div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-#two {
-  display: flex;
-  flex-direction: row;
-  margin: 1cqw;
-}
-#two > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-#three {
-  display: flex;
-  flex-direction: row;
-  margin: 1cqw;
-}
-#three > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+
 img {
   padding: 10px;
   height: 200px;
   width: 300px;
 }
+
 button {
   width: 5cqw;
   height: 2cqw;
@@ -72,9 +55,3 @@ button {
 #selected > div > p {
   padding-top: 10%;
 }
-
-/* @container (max-width: 400px) {
-  #sidebar {
-    content-visibility: hidden;
-  }
-} */
